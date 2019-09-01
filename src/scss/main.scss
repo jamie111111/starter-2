@@ -1,0 +1,21 @@
+@import "./0-vendor/bootstrap";
+@import "./0-vendor/variables";
+@import "./1-base/base-dir";
+@import "./2-layout/layout-dir";
+@import "./3-modules/modules-dir";
+
+
+
+
+
+  
+  .wrapper{
+    margin: 0 auto;
+    .img-wrapper{
+      height: 260px;
+    }
+    .card-text{
+      height: 74px;
+      overflow: hidden;
+    }
+  }
